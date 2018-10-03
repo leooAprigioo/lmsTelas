@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="Style.css">
+    <title>Disciplina</title>
+</head>
+    <body>
+    <div>
+        <h1>Formulario de Cadastro de Disciplina</h1><br>
+            <form>
+                <fieldset>
+                    <legend><h2>Cadastro de Disciplina</h2></legend>
+            
+                            <label for= 'nome'><h4>Nome</h4></label>
+                            <input type="text" name='NomeDis' id="nome" value='Digite a Matéria' onfocus="this.value='';"/><br>
+                            
+                            <label for="data" name='data'><h4>Data</h4></label>
+                            <input type="date" name='data' id="data" value="Data"><br>
+                            
+                            <label for="status"><h4>Status</h4></label>
+                            <input type="radio" name="status" value="aberta" checked>Aberta
+                            <input type="radio" name="status" id="status" value="Fechada">Fechada<br>
+                            
+                            <label for="plaEns"><h4>Plano de Ensino</h4></label>
+                            <textarea style="resize: none" rows="8" cols="30" onfocus="this.value=''">Digite o plano de ensino aqui.</textarea><br>
+
+                            <label for="cargaHora"><h4>Carga Horária</h4></label>
+                            <input type="radio" name="cargaHora" id="cargaHora" value="40" checked>40 Horas
+                            <input type="radio" name="cargaHora" id="cargaHora" value="80">80 Horas<br>
+
+                            <label for="competencias"><h4>Copetências</h4></label>
+                            <textarea style="resize: none" rows="8" cols="30" maxlength="500" onfocus="this.value=''">Digite as competências aqui.</textarea><br>
+
+                            <label for="habilidades"><h4>Habilidades</h4></label>
+                            <textarea style="resize: none" rows="8" cols="30" maxlength="500" onfocus="this.value=''">Digite as habilidades aqui.</textarea><br>
+
+                            <label for="ementa"><h4>Ementa</h4></label>
+                            <textarea style="resize: none" rows="8" cols="30" maxlength="500" onfocus="this.value=''">Digite a ementa aqui.</textarea><br>
+
+                            <label for="contProg"><h4>Conteúdo Programático</h4></label>
+                            <textarea style="resize: none" rows="8" cols="30" maxlength="500" onfocus="this.value=''">Digite o conteúdo programatico aqui.</textarea><br>
+
+                            <label for="bibliBas"><h4>Bibliografia Básica</h4></label>
+                            <textarea style="resize: none" rows="8" cols="30" maxlength="500" onfocus="this.value=''">Digite a Bibliografia Básica.</textarea><br>
+
+                            <label for="bibliComp"><h4>Bibliografia Complementar</h4></label>
+                            <textarea style="resize: none" rows="8" cols="30" maxlength="500" onfocus="this.value=''">Digite a Bibliografia Complementar aqui.</textarea><br>
+
+                            <label for="percPrat"><h4>Percentual Prático</h4></label>
+                            <textarea style="resize: none" name="percPrat" id="percPrat" cols="3" rows="1" readonly>80%</textarea><br>
+                            
+                            <label for="percTeo"><h4>Percentual Teorico</h4></label>
+                            <textarea style="resize: none" name="percPrat" id="percPrat" cols="3" rows="1" readonly>80%</textarea><br>
+                </fieldset>
+             </form>
+        </div>
+    </body>
+</html>
